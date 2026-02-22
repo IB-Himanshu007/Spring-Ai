@@ -16,7 +16,7 @@ public class AiController {
 	@RequestMapping("/genre")
 	public String bestGenreCreators() {
 	    return chatClient.prompt()
-	            .user("What is 2+2")
+	            .user("What is SpringBoot AI ")
 	            .call()
 	            .content();
 	}
